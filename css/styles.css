@@ -62,7 +62,7 @@ a:hover {
 
 /* main  */
 
-.main {
+.section-main {
   background-color: #2e2f42;
 }
 
@@ -99,7 +99,7 @@ a:hover {
 
 /* features */
 
-.features h3 {
+.features-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -107,7 +107,7 @@ a:hover {
   color: #2e2f42;
 }
 
-.features p {
+.features-desc {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
