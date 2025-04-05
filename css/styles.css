@@ -11,7 +11,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -21,7 +21,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
@@ -62,9 +62,13 @@ a:hover {
 
 /* main  */
 
-h1 {
+.main {
+  background-color: #2e2f42;
+}
+
+.main-title {
   font-weight: 700;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -72,7 +76,7 @@ h1 {
   background: #2e2f42;
 }
 
-button {
+.click-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -80,14 +84,15 @@ button {
   color: #fff;
   background: #4d5ae5;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
 }
 
-button:focus {
+.click-button:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
 
-button:hover {
+.click-button:hover {
   color: #ffffff;
   background-color: #404bbf;
 }
@@ -213,7 +218,7 @@ button:hover {
 .web-footer {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -222,7 +227,7 @@ button:hover {
 .studio-footer {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
