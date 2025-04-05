@@ -78,8 +78,7 @@ button {
   letter-spacing: 0.04em;
   color: #fff;
   background: #4d5ae5;
-  justify-content: flex-start;
-  white-space: nowrap;
+  cursor: pointer;
 }
 
 button:focus {
