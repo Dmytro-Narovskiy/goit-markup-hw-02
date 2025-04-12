@@ -215,3 +215,12 @@ a:hover {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+
+
+image {
+  background-color: #2a2a2a;
+}
+
+ul {
+  list-style: none;
+}
