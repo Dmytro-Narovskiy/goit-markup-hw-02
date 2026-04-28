@@ -1,0 +1,49 @@
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+}
+
+.header-logo-web {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--iris);
+}
+
+.header-logo-studio {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--navy-blue);
+}
+
+.header-nav-item {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.header-item-paragraph {
+  color: var(--navy-blue);
+}
+
+.header-item-paragraph:hover,
+.header-item-paragraph:focus {
+  color: var(--ocean);
+}
+
+.header-address-list {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.header-address-item a:hover,
+.header-address-item a:focus {
+  color: var(--ocean);
+}
+
+.header-address-email {
+  color: var(--slate);
+}
+
+.header-address-tel {
+  color: var(--slate);
+}
